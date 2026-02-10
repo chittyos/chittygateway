@@ -40,3 +40,6 @@ zone_name = "chitty.cc"
 [[routes]]
 pattern = "api.chitty.cc/*"
 zone_name = "chitty.cc"
+# ChittyTrack observability
+[[tail_consumers]]
+service = "chittytrack"
