@@ -15,6 +15,6 @@
     "@notionhq/client": "^2.2.15"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20240909.0"
+    "@cloudflare/workers-types": "^4.20260207.0"
   }
 }
