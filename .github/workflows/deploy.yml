@@ -47,7 +47,7 @@ jobs:
         run: npm ci
 
       - name: Deploy to Staging
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: 0bc21e3a5a9de1a4cc843be9c3e98121
@@ -79,7 +79,7 @@ jobs:
         run: npm ci
 
       - name: Deploy to Production
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: 0bc21e3a5a9de1a4cc843be9c3e98121
@@ -127,7 +127,7 @@ jobs:
 
       - name: Deploy Preview with Branch Database
         id: preview
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: 0bc21e3a5a9de1a4cc843be9c3e98121
