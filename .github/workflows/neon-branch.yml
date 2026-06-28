@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event.action != 'closed'
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
 
       - name: Create Neon Branch
         id: create-branch
