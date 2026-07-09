@@ -26,7 +26,7 @@ package.json         # Build + dependency metadata
 ## Deployment
 
 ```
-cf deploy
+wrangler deploy
 ```
 
 Ensure required service bindings are configured in `wrangler.toml`.

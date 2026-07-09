@@ -5,9 +5,9 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "wrangler dev",
-    "deploy": "cf deploy",
-    "deploy:staging": "cf deploy --env staging",
-    "deploy:production": "cf deploy --env production",
+    "deploy": "wrangler deploy",
+    "deploy:staging": "wrangler deploy --env staging",
+    "deploy:production": "wrangler deploy --env production",
     "lint": "echo 'Linting placeholder'",
     "test": "echo 'Testing placeholder'"
   },
